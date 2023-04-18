@@ -1,4 +1,5 @@
 const desafio = require("./desafio.js");
+const ung = require("unique-names-generator");
 
 describe("doubleANumber", () => {
   const array = Array.from({ length: numberOfTests }, () => {
